@@ -9,8 +9,6 @@
   - [x] Set
   - [x] Deque
   - [x] Array and list sorting
-- [ ] Lambdas
-- [ ] Streams
 
 ## Concepts
 ### List
@@ -18,15 +16,15 @@
 - ```immutable:``` They do not support deletion, modification, insertion of elements, keys or null values.
 
 ### Map
-> Map and HasMap is not sorted by key but TreeMap is.
+- Map and HasMap is not sorted by key but TreeMap is.
 
 > **NOTE:** TreeXXX is an ordered form.
 
 ### Array and list sorting
 
-> Immutable list and arrays can not be sorted by sort method.
+- Immutable list and arrays can not be sorted by sort method.
 
-> In order to apply binarySearch method array must be sorted.
+- In order to apply binarySearch method array must be sorted.
 
 # Google-Java-Format
 
