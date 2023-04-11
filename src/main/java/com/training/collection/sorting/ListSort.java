@@ -38,7 +38,7 @@ public class ListSort extends ListBehaviour {
 
     private void printPersonList(final List<Person> personList) {
         for (Person p: personList) {
-            System.out.println(p.getName() + p.getAge());
+            System.out.println(p.toString());
         }
     }
 

@@ -23,7 +23,7 @@ public class ArrayBehaviourSort extends ArrayBehaviour {
 
     private void printPeople(final Person[] people) {
         for (Person p: people) {
-            System.out.println(p.getName() + p.getAge());
+            System.out.println(p.toString());
         }
     }
 

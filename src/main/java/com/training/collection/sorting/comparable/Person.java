@@ -1,14 +1,12 @@
 package com.training.collection.sorting.comparable;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
+@Data
 public class Person implements Comparable<Person> {
 
     private String name;
